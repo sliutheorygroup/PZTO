@@ -1,0 +1,11 @@
+{
+    "job_name": "PZTO-npt",
+    "job_type": "container",
+    "command": "lmp -i npt.lammps > log",
+    "log_file": "log",
+    "backward_files": [],
+    "project_id": "",
+    "platform": "ali",
+    "machine_type": "1 * NVIDIA V100_32g",
+    "image_address": "registry.dp.tech/dptech/deepmd-kit:2.2.4-cuda11.6"
+}
